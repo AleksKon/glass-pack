@@ -1,0 +1,21 @@
+{
+  "name": "glasssite",
+  "description": "",
+  "main": "index.html",
+  "authors": [
+    "Aleksandra Koneska"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./src/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
