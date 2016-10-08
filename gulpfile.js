@@ -50,8 +50,8 @@ gulp.task('html', function(){
 	return gulp.src('src/*.html')
         .pipe(useref())
         // Minify js and css
-        // .pipe(gulpif('*.js', uglify()))
-        // .pipe(gulpif('*.css', cssnano()))
+        .pipe(gulpif('*.js', uglify()))
+        .pipe(gulpif('*.css', cssnano()))
         .pipe(gulp.dest('dist'));
 });
 
